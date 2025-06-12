@@ -32,6 +32,9 @@
 ### 🧠 **LLM Model Optimization for Edge Deployment**  
 > Converted and fine-tuned LLM models, evaluated shape consistency for hardware deployment.
 
+### 🧠 **Video Prediction using Recurrent Neural Networks**  
+> Developed new architectures (Inception-LSTM and Inception-GRU) fusing different kernels to predict video signal.
+
 ---
 
 ## 🛠️ Technical Skills
