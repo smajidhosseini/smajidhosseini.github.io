@@ -46,8 +46,8 @@
 ## 📄 Publications & Contributions
 
 - [📖 View My Google Scholar](https://scholar.google.com/citations?user=extlrYAAAAAJ&hl=en)  
-- [🧪 Research Datasets](https://datadryad.org/dataset/doi:10.5061/dryad.5hqbzkh6f)
-- [🧪 Research Datasets](https://zenodo.org/uploads/15556502)
+- [🧪 Research Dataset: Nurses dataset](https://datadryad.org/dataset/doi:10.5061/dryad.5hqbzkh6f)
+- [🧪 Research Datasets: EmpathicSchool](https://zenodo.org/uploads/15556502)
 
 ---
 
