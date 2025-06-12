@@ -26,7 +26,7 @@
 > Combines wearable sensors, facial landmarks, and federated learning for privacy-aware, on-device inference.  
 > Techniques used: Attention Fusion, Signal Quality Analysis
 
-### 🧪 **YOLO-based Nasal Cavity Image Segmentation**  
+### 🧪 **Real-time Multimodal YOLO-based Nasal Cavity Video Segmentation using Depth Information**  
 > Custom dataset and model for classifying nasal cavity images using segmentation masks and COCO-style labels.
 
 ### 🧠 **LLM Model Optimization for Edge Deployment**  
