@@ -1,6 +1,6 @@
 # 👋 Hi, I'm Majid Hosseini
 
-🎓 ** AI Research Scientist | AI & Multimodal Learning Enthusiast**  
+🎓 ** Ph.D. AI Research Scientist | AI & Multimodal Learning Enthusiast**  
 📍 University of Louisiana at Lafayette  
 🌍 Based in the United States | Open to global academic and industry collaborations  
 
@@ -32,25 +32,25 @@
 ### 🧠 **LLM Model Optimization for Edge Deployment**  
 > Converted and fine-tuned LLM models, evaluated shape consistency for hardware deployment.
 
-### 🧠 **Video Prediction using Recurrent Neural Networks**  
+### 📹 **Video Prediction using Recurrent Neural Networks**  
 > Developed new architectures (Inception-LSTM and Inception-GRU) fusing different kernels to predict video signal.
 
 ---
 
 ## 🛠️ Technical Skills
 
-**Languages**: Python, MATLAB, C++  
+**PLs**: Python, MATLAB, C++  
 **Frameworks**: PyTorch, TensorFlow, Scikit-learn, ONNX Runtime  
 **Tools**: Git, Docker, Jupyter, Roboflow, Weights & Biases  
-**Medical Data**: ECG, BVP, EDA, IBI, HR, Temperature, Facial Landmarks, Video  
+**Medical Data**: CITI certificate, IRB protocols, eIRB, HIPAA compliance, Protected Health Information (PHI), Risk Assessment in Human Studies, Vulnerable Populations, PII data 
 
 ---
 
 ## 📄 Publications & Contributions
 
 - [📖 View My Google Scholar](https://scholar.google.com/citations?user=extlrYAAAAAJ&hl=en)  
-- [🧪 Research Dataset: Nurses dataset](https://datadryad.org/dataset/doi:10.5061/dryad.5hqbzkh6f)
-- [🧪 Research Datasets: EmpathicSchool](https://zenodo.org/uploads/15556502)
+- [🔍 Research Dataset: Nurses dataset](https://datadryad.org/dataset/doi:10.5061/dryad.5hqbzkh6f)
+- [🔬 Research Datasets: EmpathicSchool](https://zenodo.org/uploads/15556502)
 
 ---
 
@@ -62,4 +62,4 @@
 
 ---
 
-> _“Science is a way of thinking much more than a body of knowledge.”_ – Carl Sagan
+> _“Science is a way of thinking much more than a body of knowledge.”_ – Majid Hosseini, although Carl Sagan said this first!
