@@ -4,7 +4,7 @@
   <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet">
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
-  <title>Majid Hosseini — Accessible Healthcare through AI-Augmented Decisions</title>
+  <title>Majid Hossini — Accessible Healthcare through AI-Augmented Decisions</title>
 
   <!-- Bootstrap -->
   <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet"/>
@@ -18,7 +18,8 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.4/css/academicons.min.css">
 
   <style>
-    :root{
+
+        :root{
       --primary-blue:#0066ff;
       --secondary-cyan:#00d4ff;
       --accent-purple:#6366f1;
@@ -40,11 +41,32 @@
 
     body{
       font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto;
-      background:var(--dark-bg);
+      /* left side should be pure black as requested */
+      background:#000;
       color:var(--text-light);
       overflow-x:hidden;
       cursor:none
     }
+    
+    #bg-video{
+  position: fixed;
+  top: 0%;
+  right: 0;
+  width: 50vw;            /* RIGHT half */
+  height: 100vh;
+  object-fit: contain;       /* fill the viewport without stretching */
+  z-index: 0;             /* behind the three.js canvas (-1) */
+  pointer-events: none;    /* never blocks clicks/scroll */
+  filter: brightness(1) contrast(1); /* keep the dark background vibe */
+  transition:opacity .3s ease;
+}
+  <canvas id="three-canvas"></canvas>
+  /* Respect users who prefer less motion */
+  @media (prefers-reduced-motion: reduce){
+    #bg-video { display: none; }
+  }
+
+    
     /* skills */
     .skills-section{
     padding:8rem 0;
@@ -373,6 +395,11 @@
 </head>
 
 <body>
+  <video id="bg-video" autoplay muted loop playsinline preload="auto" poster="" aria-hidden="true">
+  <source src="brain.mp4" type="video/mp4" />
+  </video>
+
+  <canvas id="three-canvas"></canvas>
   <!-- custom cursor -->
   <div class="custom-cursor"></div>
 
@@ -381,7 +408,7 @@
 
   <!-- loader -->
   <div class="loading-screen">
-    <div class="loading-text">Majid Hosseini</div>
+    <div class="loading-text">Majid Hossini</div>
     <div class="loading-bar"><div class="loading-progress"></div></div>
   </div>
 
@@ -391,7 +418,7 @@
   <!-- nav -->
   <nav class="navbar navbar-expand-lg">
     <div class="container">
-      <a class="navbar-brand" href="#home">Majid Hosseini</a>
+      <a class="navbar-brand" href="#home">Majid Hossini</a>
       <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
         <i class="fas fa-bars text-light"></i>
       </button>
@@ -543,20 +570,20 @@
 
   <div class="project-canvas glass-card">
     <a href="https://github.com/smajidhosseini/CVAE" target="_blank" class="project-link">
-      <img src="tl.png" alt="Top-left project" class="project-img img-tl">
-      <div class="piece-label label-tl vertical-text">Multimodal Learning</div>
+      <img src="tl.webp" alt="Top-left project" class="project-img img-tl">
+      <div class="piece-label label-tl vertical-text"></div>
     </a>
     <a href="https://ojs.aaai.org/index.php/AAAI/article/view/7176" target="_blank" class="project-link">
-      <img src="tr.png" alt="Top-right project" class="project-img img-tr">
-      <div class="piece-label label-tr">Computer Vision</div>
+      <img src="tr.webp" alt="Top-right project" class="project-img img-tr">
+      <div class="piece-label label-tr"></div>
     </a>
     <a href="https://www.overleaf.com/project/689368b43e463a372dbdd1f2" target="_blank" class="project-link">
-      <img src="dl.png" alt="Bottom-left project" class="project-img img-bl">
-      <div class="piece-label label-bl">Federated Learning</div>
+      <img src="dl.webp" alt="Bottom-left project" class="project-img img-bl">
+      <div class="piece-label label-bl"></div>
     </a>
     <a href="https://patents.google.com/patent/US20240292188A1/en" target="_blank" class="project-link">
-      <img src="dr.png" alt="Bottom-right project" class="project-img img-br">
-      <div class="piece-label label-br vertical-text">Edge Devices</div>
+      <img src="dr.webp" alt="Bottom-right project" class="project-img img-br">
+      <div class="piece-label label-br vertical-text"></div>
     </a>
   </div>
   </section>
@@ -680,7 +707,7 @@
       </div>
 
     <div class="text-center pt-4 border-top" style="border-color:rgba(255,255,255,.2)!important">
-      <p>&copy; 2025 Majid Hosseini. All rights reserved.</p>
+      <p>&copy; 2025 Majid Hossini. All rights reserved.</p>
     </div>
   </div>
 </footer>
