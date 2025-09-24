@@ -1314,7 +1314,7 @@ function initProjectsAnimation(){
   const run = async ()=>{
     // Ensure images are loaded so naturalWidth/Height are available
     const imgs = canvas.querySelectorAll('.project-img');
-    await Promise.all([...imgs].map(waitForImage));
+    await Promise.all([...imgs].map(img => img.complete ? Promise.resolve() : new Promise(res => img.addEventListener('load', res, {once:true}))));
 
     const rect = canvas.getBoundingClientRect();
     const dims = getPieceDims(canvas);
